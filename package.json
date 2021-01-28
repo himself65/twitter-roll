@@ -1,0 +1,23 @@
+{
+  "name": "twitter-roll",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Himself65/twitter-roll.git",
+  "author": "himself65 <himself65@outlook.com>",
+  "license": "MIT",
+  "bin": {
+    "twitter-roll": "bin/twitter-roll.js"
+  },
+  "dependencies": {
+    "arg": "^5.0.0",
+    "debug": "^4.3.1",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "proxy-agent": "^4.0.1",
+    "random-number-csprng": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.22"
+  }
+}
